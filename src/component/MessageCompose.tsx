@@ -29,7 +29,6 @@ export const MessageCompose: React.FunctionComponent<Props> = ({
   };
 
   const handleChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
-    console.log(event.target.value);
     setInputValue(event.target.value);
   };
 
